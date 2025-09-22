@@ -40,4 +40,3 @@ const videoSchema = new Schema<IVideo>(
 const Video = models?.Video || model<IVideo>("Video", videoSchema);
 
 export default Video;
-
